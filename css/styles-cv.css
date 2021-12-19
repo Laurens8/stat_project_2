@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(51, 51, 50);
+    text-align: center;
+    font-family: Verdana;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.demo-content {
+    color: #fff;
+    display: flex;
+    font-family: Verdana;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 56px;
+    height: 100%;
+    width: 100%;
+}
+
+.dark-mode .light-mode {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: none;
+}
+
+label {
+    color: white;
+}
+
+.header1 {
+    color: #adff2f;
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+    background-color: gray;
+}
+
+.header2 {
+    color: #adff2f;
+    float: right;
+    width: 40%;
+    padding-top: 10px;
+    background-color: gray;
+}
+
+.header3 {
+    color: #adff2f;
+    padding-top: 20px;
+    background-color: gray;
+    padding-bottom: 15px;
+}
+
+.header4 {
+    color: #adff2f;
+    padding-top: 10px;
+    font-size: 40px;
+    align-items: center;
+    background-color: gray;
+}
+
+.text {
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.email {
+    color: #adff2f;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 50px;
+    border: 0px;
+    border-style: none;
+}
+
+.dark-mode .header1 {
+    color: blue;
+    background-color: gray;
+}
+
+.dark-mode .header2 {
+    background-color: gray;
+    color: blue;
+}
+
+.dark-mode .header3 {
+    background-color: gray;
+    color: blue;
+}
+
+.dark-mode .header4 {
+    background-color: gray;
+    color: blue;
+}
+
+.dark-mode .email {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark-mode .text {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark-mode .demo-content {
+    background-color: rgb(51, 51, 50);
+}
+
+.textleft {
+    width: 33%;
+    float: left;
+}
+
+.textright {
+    width: 33%;
+    float: right;
+}
+
+.textcenter {
+    width: 33%;
+    margin: auto;
+}
+
+.acordion {
+    width: 100%;
+    background-color: gray;
+}
+
+.containerheader {
+    background-color: gray;
+}
+
+.light-switch {
+    padding-right: 45px;
+}

@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(51, 51, 50);
+    text-align: center;
+    font-family: Verdana;
+}
+
+label {
+    color: white;
+}
+
+.light-mode {
+    background-color: rgb(51, 51, 50);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.light-switch {
+    padding-right: 45px;
+}
+
+.dark-mode .light-mode {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: none;
+}
+
+.dark-mode .header1 {
+    color: blue;
+    background-color: white;
+}
+
+.dark-mode .header2 {
+    background-color: white;
+    color: blue;
+}
+
+.dark-mode .text {
+    background-color: white;
+    color: black;
+}
+
+.header1 {
+    color: #adff2f;
+    padding-top: 30px;
+}
+
+.header2 {
+    color: #adff2f;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.container1 {
+    width: 80%;
+    margin: 0% auto;
+    background-color: rgb(51, 51, 50);
+}
+
+.container2 {
+    width: 80%;
+    margin: 0% auto;
+    background-color: rgb(51, 51, 50);
+}
+
+.card {
+    width: 100%;
+}

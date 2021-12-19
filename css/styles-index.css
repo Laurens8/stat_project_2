@@ -1,0 +1,62 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana;
+    background-color: white;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bos-herfst.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.light-mode {
+    background-color: rgb(51, 51, 50);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.light-switch {
+    padding-right: 45px;
+}
+
+.dark-mode .light-mode {
+    background-color: rgb(255, 255, 255);
+    color: black !important;
+    border-style: none!important;
+}
+
+label {
+    color: white;
+}
